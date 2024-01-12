@@ -1,0 +1,27 @@
+.card-container{
+    background-color: rgb(220, 193, 193);
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 35px;
+    font-family: 'Poppins', sans-serif;
+    width:40%;
+    
+    
+    }
+
+.card-container-p{
+        background-color: rgb(164, 128, 133);
+        border-radius: 15px;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 45px;
+        font-family: 'Poppins', sans-serif;
+        color:rgb(24, 24, 22);
+        width:90%;
+        
+        
+     }
+        
