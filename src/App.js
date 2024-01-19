@@ -1,29 +1,32 @@
-
+//import logo from './logo.svg';
 //import './App.css';
 
-import AboutUs from './Pages/AboutUs';
-import Contact from './Pages/Contact';
-import Home from './Pages/Home';
-
-import {BrowserRouter as Router,Route,Switch} from 'react-router-dom'
-import Login from './Pages/Login';
- 
-
+import { LoginContext } from './Components/LoginContext';
+import { RouterProvider } from 'react-router';
+import {BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+import Login from './Components/Login';
+import ProtectedRoutes from './Components/ProtectedRoutes';
 
 function App() {
   return (
-    
-    <div className="App">
-      
-      
-      <Home/>
-          
-    </div>
-
-     
-
-
+    <LoginContext>
+      <Router>
+        <Routes>
         
+          <Route path="/" elements={<Login/>}/>
+          <Route element={<ProtectedRoutes/>}>
+             
+          </Route>
+        </Routes>
+      
+      
+      
+      </Router>
+    
+    
+    
+    
+    </LoginContext>
   );
 }
 
