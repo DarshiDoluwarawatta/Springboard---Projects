@@ -41,7 +41,7 @@ export const StyledComponent = styled.div`
 
 export const Heading2 = styled.h4`
   font-size:28px;
-  text-align:left;
+  text-align:center;
   color:purple;
   font-family: cursive;
   @media (max-width:768px){
@@ -50,7 +50,7 @@ export const Heading2 = styled.h4`
 
  export const Heading3 = styled.h3`
   font-size:16px;
-  text-align:left;
+  text-align:center;
   font-family: cursive;
   @media (max-width:768px){
   font-size:18px;
@@ -60,7 +60,7 @@ export const Heading2 = styled.h4`
 
  export const Heading1 = styled.h2`
  font-size:18px;
- text-align:left;
+ text-align:center;
  @media (max-width:768px){
  font-size:18px;
  font-family: fantasy;

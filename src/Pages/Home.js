@@ -11,6 +11,7 @@ import SimpleCard from '../Components/SimpleCard';
 import { Footer } from '../Components/StyledComponents';
 import VisionCard from '../Components/VisionCard';
 import Navbar from '../Components/Navbar';
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -20,24 +21,26 @@ export default function Home() {
    
       <><div>
           <Navbar/>
-          <StyledComponentBody></StyledComponentBody>
-          <Stack direction="row" spacing={3} ><Heading>Lets E learning at your Home</Heading>
-           
-              <Button type='submit' variant="contained" style={{ backgroundColor: 'blue', width: '100px', color: "primary" }}>Sign Up</Button>
+          <StyledComponentBody></StyledComponentBody><div></div>
+          <Stack direction="row" spacing={3} >
+              <Heading><div>Lets E learning at your Home</div></Heading><p></p><p></p>
+              <Heading1><div></div>Any Questions? Call 075 655 7045</Heading1>
+              
+              <Button type='submit' variant="contained" style={{ backgroundColor: 'blue', width: '100px', color: "primary" }}><NavLink to="/Register">Sign Up</NavLink></Button>
             
             
-               <Button type="submit" variant="contained" style={{ width: '100px', color: "primary" }}>Login</Button>
+               <Button type="submit" variant="contained" style={{ width: '100px', color: "primary" }}><NavLink to="/LoginSignUp">Login</NavLink></Button>
            
-            <Heading1>Any Questions? Call 075 655 7045</Heading1><YouTubeIcon/><FacebookIcon/><SubscriptionsIcon/>
+            
           </Stack>
         </div>
           <StyledComponentBody></StyledComponentBody>
         <div>
           <Stack direction="row" spacing={15}>
-            <img src={Logo} alt="elaerning" width={600} height={200}/>
-          <SimpleCard/>
+            <img src={Logo} alt="elaerning" width={650} height={250}/>
+            <SimpleCard/>
           </Stack>
-      
+          <p></p>
           <VisionCard/>
           <StyledComponentBody>`</StyledComponentBody>
         </div>
@@ -46,13 +49,15 @@ export default function Home() {
       
           <StyledComponentBody></StyledComponentBody>
         <div >
-          <Footer>&copy; {new Date().getFullYear()}TechFusion Academy
-          <br/>384/2,Wekkawatta,Ihala Bomiriya,Kaduwela.<b>E mail:ddoluweera75@gmail.com</b>
+          <Footer>&copy; {new Date().getFullYear()}TechFusion Academy 
+          <br />384/2,Wekkawatta,Ihala Bomiriya,Kaduwela.<b>E mail:ddoluweera75@gmail.com</b><b>Tell:075 655 7045</b>
+          <p ><a href=""><YouTubeIcon/></a>
+              <a href=""><FacebookIcon/></a>
+              <a href=""><SubscriptionsIcon/></a>
+          </p>
           </Footer>
         </div>
       </>
       
   );
 }
-
-

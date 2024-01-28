@@ -1,51 +1,151 @@
 .box{
 
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 90vh;
-}
-
-.container{
-
-    width: 350px;
     display: flex;
     flex-direction: column;
-    padding: 0 15px 0 15px;
+    margin:auto;  
+    justify-content: center;
+}
+
+.img src{
+
+    align-items: center;
+
 
 }
+.container{
+
+    width: 100px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    margin-top: 15px;
+    padding: 0 15px 20px 15px;
+    background-color: #7f94e7
+}
+
+
+.container1{
+
+    width: 600px;
+    height: 780px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    margin-top: 15px;
+    padding: 0 15px 20px 15px;
+    background-color: #7f94e7
+}
+
+
+
+.container2{
+
+    width: 600px;
+    height: 880px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    margin-top: 15px;
+    padding: 0 15px 20px 15px;
+    background-color: #7f94e7
+}
+
+.container3{
+
+    width: 600px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    margin-top: 15px;
+    padding: 0 15px 20px 15px;
+    background-color: #7f94e7
+}
+
 span{
 
-    color: rgb(231, 15, 15);
-    font-size:small;
+    color: rgb(120, 20, 20);
+    font:55px;
     display: flex;
     justify-content: center;
-    padding: 10px 0 10px 0;
+    padding: 5px 0 5px 0;
+    
 }
-header{
-
-    color: rgb(240, 161, 15);
+.header{
+    display: flex;
+    color: rgb(101, 69, 9);
     font-size: 30px;
-    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+    width:100%;
     justify-content: center;
     padding: 10px 0 10px 0;
+    margin: 20px;
 }
-.input{
+.text{
 
-    height:60px;
-    width:87%;
-    border:#ec4c0c;
-    outline: none;
+    color: #3c009d;
+    font-size: 23x;
+    font-weight: 700;
+}
+
+
+.underline{
+
+    width: 61px;
+    height: 6px;
+    background: #3c009d;
+    border-radius: 9px;
+}
+.inputs{
+
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width:400px;
+    height: 50px;
+    border:#c59582;
+    
     border-radius: 30px;
-    color: rgb(241, 18, 215);
+    color: rgb(52, 6, 160);
     padding: 0 0 0 45px;
     background: rgba(233, 17, 17, 0.1);
 
+
+
 }
-.input-field{
+
+.select-control{
 
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width:400px;
+    height: 50px;
+    
+    border:#c59582;
+    
+    border-radius: 30px;
+    color: rgb(52, 6, 160);
+    padding: 0 0 0 45px;
+    background: rgba(233, 17, 17, 0.1);
+    border:#c59582;
+    
+    border-radius: 30px;
+    color: rgb(52, 6, 160);
+    padding: 0 0 0 45px;
+    background: rgba(233, 17, 17, 0.1);
+
+
+
 }
 
 i{
@@ -56,18 +156,59 @@ i{
     color: #0cbdef;
 }
 ::-webkit-input-placeholder{
-    color: #b5dcbb;
+    color: #250307;
 }
 
-.submit{
 
-    border: none;
-    border-radius: 30px;
-    font-size: 15px;
-    height: 45px;
-    outline: none;
-    width: 100%;
-    background: rgba(232, 20, 20, 0.7);
+.forgot-password{
+
+    padding-left: 62px;
+    margin-top: 27px;
+    color:#220bf3;
+    font-size: 18px;
+
+}
+.forgot-password span{
+
+    
+    color:#220bf3;
+    cursor: pointer;
+
+}
+
+.submit-container{
+
+    display: flex;
+    gap: 20px;
+    margin: 60px auto;
+}
+.button type{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    border-color:none;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 400;
+    height: 39px;
+    width: 150px;
+    background: rgba(223, 96, 23, 0.7);
+    cursor: pointer;
+    transition: .3s;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 400;
+    height: 39px;
+    width: 150px;
+    background: rgba(223, 96, 23, 0.7);
     cursor: pointer;
     transition: .3s;
 }
@@ -84,13 +225,36 @@ i{
     color:#690505;
     margin-top: 10px;
 }
-.left{
+
+.input input{
+
+    height: 40px;
+    width:200px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #660505;
+    font-size: 19px;
+}
+
+.inputs label{
+
     display: flex;
+    align-items: center;
+    margin: auto;
+    width:400px;
+    height: 50px;
+    border:none;
+    
+   
+   ;
+
 
 }
-label a{
-    color: #ec4c0c;
-    text-decoration: none;
+.gray{
+
+    background: #020243;
+    color:#eee3e3;
+
 
 }
-

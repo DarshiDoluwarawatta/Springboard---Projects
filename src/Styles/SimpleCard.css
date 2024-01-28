@@ -6,13 +6,59 @@
     padding-right: 25px;
     padding-bottom: 35px;
     font-family: 'Poppins', sans-serif;
-    width:40%;
+    width:35%;
+    
     
     
     }
 
-.card-container-p{
+
+    .card-container-p{
         background-color: rgb(164, 128, 133);
+        border-radius: 15px;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 45px;
+        font-family: 'Poppins', sans-serif;
+        color:rgb(24, 24, 22);
+        width:90%;
+        
+        
+     }
+
+     
+     .card-container-p1{
+        background-color: rgb(210, 198, 240);
+        border-radius: 15px;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 45px;
+        font-family: 'Poppins', sans-serif;
+        color:rgb(24, 24, 22);
+        width:90%;
+        
+        
+     }
+
+     
+     .card-container-p2{
+        background-color: rgb(210, 198, 240);
+        border-radius: 15px;
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 45px;
+        font-family: 'Poppins', sans-serif;
+        color:rgb(24, 24, 22);
+        width:90%;
+        
+        
+     }
+
+     .card-container-p3{
+        background-color: rgb(210, 198, 240);
         border-radius: 15px;
         padding-top: 25px;
         padding-left: 25px;

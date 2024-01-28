@@ -1,6 +1,6 @@
 import React from 'react';
 import HomeIcon from '@mui/icons-material/Home';
-import NavbarStyles from '../Styles/NavbarStyles.css'
+import NabarStyles from '../Styles/NavbarStyles.css';
 import { ThemeProvider } from './ThemeProvider';
 import { NavLink } from 'react-router-dom';
 import Logo10 from  '../Styles/Pictures/Tech Fusion academy.png';
